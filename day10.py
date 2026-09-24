@@ -65,6 +65,13 @@
 
 # Find the First Occurrence
 arr = [10,25,60,4,50]
+target = int(input())
+a = -1
+for i in range(len(arr)):
+    if target == arr[i]:
+        a = i
+        break
+print(a)
 
 
 
