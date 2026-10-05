@@ -23,3 +23,16 @@
     
      
 # Q19 — Find the Second Largest Element
+# arr = [10, 5, 20, 8, 20, 15]
+# largest = float("-inf")
+# sec = float('-inf')
+# for i in range(len(arr)):
+#     if arr[i] > largest :
+#         sec = largest
+#         largest = arr[i]
+#     elif largest > arr[i] and arr[i] > sec:
+#         sec = arr[i]    
+# print(sec)        
+
+
+# Q20 — Left Rotate an Array by 1 Position
