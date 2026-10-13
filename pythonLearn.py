@@ -53,3 +53,53 @@ num = 3
 
 
 # Question 5 find the first none repeated character
+# apple = "teeter"
+# for char in apple:
+#     if apple.count(char) == 1:
+#         print(char)
+#         break
+
+
+
+
+
+#Question 6 compute a factorial of a number using loop
+# n = int(input())
+# factorial = 1
+# while n >0:
+#     factorial = factorial * n
+#     n = n - 1
+# print(factorial)
+
+
+
+
+
+
+#Question 7 validate input ,number should be between 1 to 10
+# while True:
+#     n = int(input())
+#     if n > 0 and  n < 11:
+#         print( "is a valid number")
+#         break
+
+
+
+
+
+
+#Question 8 check whether the number is prime or not
+# n = int(input())
+# for i in range(2,n):
+#     if n % i == 0:
+#         print("Not a Prime Number")
+#         break
+#     else:
+#         print("Is a prime number")
+#         break    
+
+
+
+
+
+#Question 9 check in the list every element should be uniques otherwise exit the loop and print that element
