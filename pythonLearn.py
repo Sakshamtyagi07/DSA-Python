@@ -103,3 +103,23 @@ num = 3
 
 
 #Question 9 check in the list every element should be uniques otherwise exit the loop and print that element
+# arr = [10, 5, 20, 8, 5, 15]
+# a = set()
+# for i in arr:
+#     if i in a:
+#         print(i)
+#         break
+#     a.add(i)
+    
+    
+    
+#Question 10 Exponential backoff  doubles the wait time between retries , string from 1 sec but stop after 5 retries
+import time
+waittime = 1
+maxretries = 5
+attempts = 0
+while attempts < maxretries:
+    print(attempts+1,waittime)
+    time.sleep(waittime)
+    waittime *= 2
+    attempts += 1
